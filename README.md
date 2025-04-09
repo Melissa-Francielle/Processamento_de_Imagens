@@ -72,6 +72,8 @@ _______________
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/4_Deteccao_Formas_Texturas/Gato_hough_original.png)
   
     [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/4_Deteccao_Formas_Texturas/Gato_hough.png)
+
+  ![Gato com filtro hough](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Filtro_Hough.png)
 ### 5.Transformações geometricas
 * Interpolação Bilinear/Bicúbica (redimensiona imagens).
 
