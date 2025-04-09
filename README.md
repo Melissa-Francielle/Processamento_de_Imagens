@@ -83,7 +83,9 @@ _______________
 
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/5_Transformacao_Geometrica/gato_bilinear_original.jpg)
   
-    [Resultado](URL)
+    [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/5_Transformacao_Geometrica/gato_bilinear.jpg)
+  
+   ![Gato com interpolacao](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Interpolacao_bilinear.png)
 ### 6.Filtros Morfológicos
 * Abertura (Remove pequenos objetos sem alterar a forma principal).
 
@@ -93,7 +95,9 @@ _______________
 
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/6_Filtros_Morfologicos/gato_abertura_original.jpg)
   
-    [Resultado](URL)
+    [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/6_Filtros_Morfologicos/gato_abertura.jpg)
+
+     ![Gato com filtro de abertura](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Abertura.png)
 
 ### Imagens de Referência para o processamento 
 **Imagem usada no processamento de Gama:**
@@ -108,6 +112,17 @@ _______________
 
 > YOUTUBE. *Miniatura do vídeo "Filtro de detecção de bordas Canny - Python e OpenCV"*. Disponível em: https://i.ytimg.com/vi/czR6DrMptJE/hqdefault.jpg. Acesso em: 9 abr. 2025.
 
+**Imagem utilizada no processamento de Hough:**
+
+> VIRAL HUNTZ. *AA7AF416-7733-457C-938D-F38F00A49627.jpg*. [Imagem]. Disponível em: https://viralhuntz.shop/cdn/shop/files/AA7AF416-7733-457C-938D-F38F00A49627.jpg. Acesso em: 9 abr. 2025.
+
+**Imagem utilizada na interpolação:**
+
+> PINTEREST. *Gato pixelado em 3/4 perfil*. [Imagem]. Disponível em: https://i.pinimg.com/564x/98/2d/4b/982d4b383ed2cd2a6a965f3c00e95f90.jpg. Acesso em: 9 abr. 2025.
+
+**Imagem utilizada no filtro de abertura:**
+
+> WIKIPEDIA. *Longcat is loooooooooong*. [Imagem]. Disponível em: https://upload.wikimedia.org/wikipedia/en/3/3d/Longcat_is_loooooooooong.jpg. Acesso em: 9 abr. 2025.
 
 
 
