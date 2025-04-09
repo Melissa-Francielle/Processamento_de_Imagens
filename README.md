@@ -71,7 +71,7 @@ _______________
 
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/4_Deteccao_Formas_Texturas/Gato_hough_original.png)
   
-    [Resultado](URL)
+    [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/4_Deteccao_Formas_Texturas/Gato_hough.png)
 ### 5.Transformações geometricas
 * Interpolação Bilinear/Bicúbica (redimensiona imagens).
 
