@@ -29,7 +29,7 @@ _______________
 
   [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/1_Realce_Ajuste/Gato_original.jpg)
 
-  [Resultado](URL)
+  [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/1_Realce_Ajuste/Gato_correcao_gama.jpg)
 
 
 ### 2.Suavização e Redução de Ruídos
