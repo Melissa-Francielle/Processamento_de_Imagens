@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Caminho da imagem original
-caminho_original = r'C:\Users\melfr\OneDrive\Documentos\Faculdade\Materias\Computação Gráfica\Processamento Básico de Imagens\1_Realce_Ajuste\Gato_original.jpg'
+caminho_original = r'Processamento Básico de Imagens\1_Realce_Ajuste\Gato_original.jpg'
 
 # Abrir imagem original
 img_original = Image.open(caminho_original).convert("RGB")
@@ -37,4 +37,4 @@ plt.tight_layout()
 plt.show()
 
 # Salvar a imagem corrigida
-img_gamma.save(r'C:\Users\melfr\OneDrive\Documentos\Faculdade\Materias\Computação Gráfica\Processamento Básico de Imagens\1_Realce_Ajuste\Gato_correcao_gama.jpg')
+img_gamma.save(r'Processamento Básico de Imagens\1_Realce_Ajuste\Gato_correcao_gama.jpg')
