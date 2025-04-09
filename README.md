@@ -31,7 +31,8 @@ _______________
 
   [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/1_Realce_Ajuste/Gato_correcao_gama.jpg)
 
-
+##Comparação do antes e após o processamento
+![Gato com Correção Gama](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Correcao_gama.png)
 
 ### 2.Suavização e Redução de Ruídos
 * Gaussiano (Aplica suavização preservando bordas).
