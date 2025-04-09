@@ -92,3 +92,20 @@ _______________
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/6_Filtros_Morfologicos/gato_abertura_original.jpg)
   
     [Resultado](URL)
+
+### Imagens de Referência para o processamento 
+**Imagem usada no processamento de Gama:**
+
+> SUM, Michael. *Fotografia de luz solar em floresta*. 2023. Disponível em: https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg. Acesso em: 9 abr. 2025.
+
+**Imagem usada no processamento Gaussiano:**
+
+> TWITTER. *Imagem de gato publicada em @culturismoftbl*. Disponível em: https://pbs.twimg.com/media/F775U4sXQAA_gDE.jpg:large. Acesso em: 9 abr. 2025.
+
+**Imagem usada no processamento Canny:**
+
+> YOUTUBE. *Miniatura do vídeo "Filtro de detecção de bordas Canny - Python e OpenCV"*. Disponível em: https://i.ytimg.com/vi/czR6DrMptJE/hqdefault.jpg. Acesso em: 9 abr. 2025.
+
+
+
+
