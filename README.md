@@ -41,7 +41,7 @@ _______________
 
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/2_Suavização_Redução_Ruídos/Gato_ruido_original.png)
   
-    [Resultado](URL)
+    [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/2_Suavização_Redução_Ruídos/Gato_gaussiano.png)
 
 ### 3.Detecção de bordas 
 * Canny (Combina suavização e gradientes para bordas mais limpas).
