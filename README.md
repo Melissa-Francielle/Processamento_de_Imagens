@@ -52,7 +52,7 @@ _______________
 
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/3_Deteccao_Bordas/Gato_canny_original.jpg)
   
-    [Resultado](URL)
+    [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/3_Deteccao_Bordas/Gato_canny.png)
 ### 4.Detecção de formas e texturas
 * Transformada em Hough (Detecta linhas e circulos na imagem).
 
