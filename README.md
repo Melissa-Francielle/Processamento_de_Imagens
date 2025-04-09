@@ -31,7 +31,7 @@ _______________
 
   [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/1_Realce_Ajuste/Gato_correcao_gama.jpg)
 
-##Comparação do antes e após o processamento
+## Comparação do antes e após o processamento
 ![Gato com Correção Gama](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Correcao_gama.png)
 
 ### 2.Suavização e Redução de Ruídos
@@ -44,6 +44,9 @@ _______________
     [Imagem Original](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/2_Suavização_Redução_Ruídos/Gato_ruido_original.png)
   
     [Resultado](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/2_Suavização_Redução_Ruídos/Gato_gaussiano.png)
+
+## Comparação do antes e após o processamento
+![Gato com Filtro Gaussiano](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Filtro_Gaussiano.png)
 
 ### 3.Detecção de bordas 
 * Canny (Combina suavização e gradientes para bordas mais limpas).
