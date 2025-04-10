@@ -1,3 +1,14 @@
+# A interpolação bilinear é uma técnica usada para redimensionar imagens (ampliar ou reduzir),
+# preservando a suavidade entre os pixels. Diferente da interpolação mais simples (vizinho mais próximo),
+# ela calcula a média ponderada de 4 pixels vizinhos para estimar a cor de um novo pixel.
+#
+# Nesse exemplo, a imagem original é reduzida com um fator de escala (10% do tamanho original).
+# Para cada novo pixel da imagem redimensionada, localizamos sua posição correspondente na imagem original
+# e usamos os quatro vizinhos ao redor para calcular o novo valor de cor.
+# Esse cálculo leva em conta a distância proporcional de cada vizinho (dx, dy), gerando uma transição mais suave.
+#
+# Ao final, exibimos a imagem original e a redimensionada lado a lado para comparação.
+
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,7 +18,7 @@ img = Image.open(r'Processamento Básico de Imagens\5_Transformacao_Geometrica\g
 arr = np.array(img)
 orig_h, orig_w, channels = arr.shape
 
-# Fator de escala (ex: 0.5 para reduzir pela metade, 2 para dobrar)
+# Fator de escala
 escala = 0.1
 new_h = int(orig_h * escala)
 new_w = int(orig_w * escala)
