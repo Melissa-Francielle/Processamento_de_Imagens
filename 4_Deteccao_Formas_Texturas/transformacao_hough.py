@@ -1,3 +1,15 @@
+# A Transformada de Hough é uma técnica utilizada para detectar formas geométricas
+# (como linhas, círculos, etc.) em uma imagem, mesmo quando essas formas estão com ruído ou incompletas.
+# Neste caso, usamos a transformada para detectar linhas retas.
+#
+# O processo funciona assim:
+# 1. A imagem é convertida para tons de cinza (implícito ao usar Canny) e são detectadas as bordas com o filtro de Canny.
+# 2. A Transformada de Hough é aplicada sobre as bordas para identificar parâmetros (ρ, θ) das possíveis linhas.
+#    - ρ (rho) representa a distância da linha até a origem.
+#    - θ (theta) é o ângulo de inclinação da linha em relação ao eixo horizontal.
+# 3. Cada linha detectada é desenhada sobre a imagem original com uma linha vermelha.
+# Por fim, mostramos lado a lado a imagem original e a imagem com as linhas detectadas pela Transformada de Hough.
+
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
@@ -8,7 +20,7 @@ import os
 caminho_original = r'Processamento Básico de Imagens\4_Deteccao_Formas_Texturas\Gato_hough_original.png'
 img_pil = Image.open(caminho_original).convert("RGB")
 
-# Converter para BGR para uso com OpenCV
+# Converter para BGR (formato do OpenCV)
 img_original = np.array(img_pil)
 img_original = cv.cvtColor(img_original, cv.COLOR_RGB2BGR)
 
@@ -18,7 +30,7 @@ img_hough = img_original.copy()
 # Detectar bordas com Canny
 edges = cv.Canny(img_original, 50, 180)
 
-# Aplicar Transformada de Hough
+# Aplicar Transformação de Hough
 lines = cv.HoughLines(edges, 1, np.pi / 180, 120)
 
 # Se linhas forem detectadas, desenhar
