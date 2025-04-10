@@ -1,3 +1,19 @@
+# Este código aplica a correção gama (gamma correction) em uma imagem RGB.
+
+# A correção gama é usada para ajustar o brilho de uma imagem.
+# A fórmula usada é: valor_corrigido = (valor_original / 255) ** γ * 255
+
+# gamma (γ): define o tipo de ajuste:
+#     γ < 1 → imagem mais clara
+#     γ > 1 → imagem mais escura
+
+# A biblioteca PIL é usada para abrir e manipular a imagem.
+# A biblioteca matplotlib exibe as imagens.
+# A imagem é percorrida pixel a pixel e cada canal (R, G, B) recebe a correção.
+
+# Exemplo:
+#     Se γ = 0.7, a imagem ficará mais clara, destacando áreas mais escuras.
+
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
