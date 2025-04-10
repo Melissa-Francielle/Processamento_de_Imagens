@@ -1,3 +1,14 @@
+
+# O filtro gaussiano é uma técnica de suavização usada para reduzir ruídos e
+# variações bruscas em imagens, mantendo suas bordas suaves.
+# Ele funciona aplicando uma convolução com uma máscara baseada na função gaussiana,
+# o que resulta em uma média ponderada dos pixels vizinhos.
+# Neste código, a imagem original é carregada e processada com o filtro gaussiano
+# usando a função GaussianBlur() da biblioteca PIL.
+# O parâmetro 'radius' define o grau de suavização: quanto maior o valor, mais borrada
+# a imagem fica.
+# O resultado é exibido ao lado da imagem original e salvo em disco para comparação.
+
 from PIL import Image
 from PIL import ImageFilter
 import matplotlib.pyplot as plt
@@ -9,7 +20,7 @@ caminho_original = r'Processamento Básico de Imagens\2_Suavização_Redução_R
 # Abrir imagem original
 img_original = Image.open(caminho_original).convert("RGB")
 
-# Clonar a imagem para aplicar a correção gama
+# Clonar a imagem para aplicar o filtro gaussiano
 img_gaussiana = img_original.copy()
 matrix = img_gaussiana.load()
 
@@ -32,5 +43,5 @@ axs[1].axis("off")
 plt.tight_layout()
 plt.show()
 
-# Salvar a imagem corrigida
+# Salvar a imagem filtrada
 img_gaussiana.save(r'Processamento Básico de Imagens\2_Suavização_Redução_Ruídos\Gato_gaussiano.png')
