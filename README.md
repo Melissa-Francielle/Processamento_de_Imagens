@@ -99,6 +99,9 @@ _______________
 
      ![Gato com filtro de abertura](https://github.com/Melissa-Francielle/Processamento_de_Imagens/blob/main/Comparações_Processamento/Abertura.png)
 
+### Ideias Futuras
+ Foi proposta a análise da capacidade das Inteligências Artificiais em aplicar filtros em imagens, realizando uma comparação entre os resultados gerados pela IA e aqueles produzidos manualmente pelo desenvolvedor.
+ 
 ### Imagens de Referência para o processamento 
 **Imagem usada no processamento de Gama:**
 
